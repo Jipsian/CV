@@ -1,0 +1,38 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* Barre de navigation */
+
+.navbar {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#logoNavBar {
+    width: 28px;
+}
+
+#logoNavBar2 {
+    width: 26px;
+}
+
+
+/* Banniere accueil */
+
+.aboutMe {
+    margin-top: 10%;
+}
+
+#accueilNom {
+    color: black;
+    font-size: 37px;
+    font-weight: bold;
+}
+
+#accueilJob {
+    color: #2E4975;
+    font-size: 32px;
+    font-style: italic;
+}
