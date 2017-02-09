@@ -22,17 +22,111 @@
 /* Banniere accueil */
 
 .aboutMe {
-    margin-top: 10%;
+    margin-top: 6%;
+    margin-bottom: 11%;
+}
+
+#accueilImg {
+    padding: 0;
+}
+
+#accueilBloc {
+    padding: 0;
 }
 
 #accueilNom {
     color: black;
-    font-size: 37px;
-    font-weight: bold;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 #accueilJob {
     color: #2E4975;
-    font-size: 32px;
+    font-size: 25px;
     font-style: italic;
+    font-family: 'Delius Unicase', cursive;
+}
+
+.accueilText {
+    font-size: 16px;
+    margin: 5% 5% 5% 0%;
+}
+
+
+/* Compétences et expériences */
+
+.aboutSkills {
+    background-color: #2E4975;
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.demSkills {
+    background-color: white;
+    margin: 0 1% 0 -1%!important;
+    padding: 0!important;
+}
+
+.catSkills {
+    background-color: #2E4975!important;
+    border: none!important;
+    color: white!important;
+    font-size: 25px;
+    font-family: 'Delius Unicase', cursive;
+    font-weight: 400;
+    padding: 3.5% 0 3.5% 0!important;
+}
+
+.catSkills:focus {
+    background-color: white!important;
+    border: none!important;
+    color: #2E4975!important;
+    font-size: 25px;
+    font-family: 'Delius Unicase', cursive;
+    font-weight: 700;
+    padding: 3.5% 0 3.5% 0!important;
+}
+
+.blocSkills {
+    background-color: #2E4975!important;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.titleSkills {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin-top: 0.175%;
+}
+
+.progress {
+    margin-top: 1%;
+}
+
+.blocTitleSkills {
+    margin: 0;
+    padding: 0;
+}
+
+.itemPro {
+    margin: auto;
+    padding: auto;
+}
+
+.titrePro {
+  color: #2E4975;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 5% 5% 5% 5%;
+  padding: 5% 5% 5% 5%;
+}
+
+.proText {
+  color: #2E4975;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 5% 5% 5% 5%;
+  padding: 5% 5% 5% 5%;
 }
