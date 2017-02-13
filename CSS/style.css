@@ -37,7 +37,7 @@
 #accueilNom {
     color: black;
     font-size: 35px;
-    font-weight: 700;
+    font-weight: bold;
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -45,7 +45,6 @@
 #accueilJob {
     color: #2E4975;
     font-size: 25px;
-    font-style: italic;
     font-family: 'Delius Unicase', cursive;
 }
 
@@ -73,6 +72,7 @@
 
 .demSkills {
     background-color: white;
+    height: 276px;
     margin: 0 1% 0 -1%!important;
     padding: 0!important;
 }
@@ -127,18 +127,26 @@
     color: #2E4975;
     font-size: 20px;
     font-weight: 600;
-    margin: 5% 5% 5% 5%;
-    padding: 5% 5% 5% 5%;
+    margin: 1% 0 1% 0;
+    padding: 1% 0 1% 0%;
 }
 
-.proText {
-    color: #2E4975;
-    font-size: 18px;
-    font-weight: 300;
-    margin: 5% 5% 5% 5%;
-    padding: 5% 5% 5% 5%;
+
+.lienCV {
+  color: #2E4975;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  padding: 2% 0 2% 0;
 }
 
+.titreHobby {
+  color: #2E4975;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 1% 0 3.5% 0;
+  padding: 1% 0 3.5% 0%;
+}
 
 /*Porte-folio*/
 
@@ -148,7 +156,7 @@
     font-size: 35px;
     font-weight: 700;
     margin-bottom: 5%;
-    margin-top: 15%;
+    margin-top: 25%;
 }
 
 .container {
@@ -224,8 +232,8 @@
 }
 
 .portfolio .label-text {
-    color: white;
-    font-size: 16px padding: 5px 8px 0 0;
+    font-size: 20px;
+    padding: 5px 8px 0 0;
     position: relative;
     z-index: 500;
 }
@@ -233,6 +241,37 @@
 
 /*Me contacter*/
 
-#success_message {
-    display: none;
+#titreContact {
+  color: black;
+  font-family: 'Delius Unicase', cursive;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 5%;
+  margin-top: 20%;
+}
+
+.blocContact {
+  background-color: #2E4975;
+}
+
+.well {
+  margin: 10% 0 0 0;
+  padding: 0 0 10% 0;
+}
+
+
+/*Footer*/
+
+footer {
+    background-color: #F8F8F8;
+}
+#ML {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0.5% 0 0.5% 0;
+}
+
+#lienIcones {
+  font-size: 14px;
+    margin: 0.25% 0 0 0;
 }

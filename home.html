@@ -3,9 +3,10 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>CV Sylvain Labarre</title>
+        <title>Sylvain Labarre</title>
         <link rel="shortcut icon" href="Images/CV.png">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/animate.css">
         <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -28,16 +29,16 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="#">Présentation</a>
+                            <a class="brand" href="#" data-target="#">Présentation</a>
                         </li>
                         <li>
-                            <a href="#competences">Compétences</a>
+                            <a class="brand" href="#ancre1" data-target="#ancre1">Compétences</a>
                         </li>
                         <li>
-                            <a href="#Portefolio">Réalisations</a>
+                            <a class="brand" href="#ancre2" data-target="#ancre2">Réalisations</a>
                         </li>
                         <li>
-                            <a href="#Contact">Me contacter</a>
+                            <a class="brand" href="#ancre3" data-target="#ancre3">Me contacter</a>
                         </li>
                     </ul>
                 </div>
@@ -45,7 +46,7 @@
         </nav>
 
         <!-- Encadré de présentation -->
-        <div class="container" id="Presentation">
+        <div class="container">
             <div class="row aboutMe">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center" id="accueilNom">
                     <h1>Sylvain Labarre
@@ -59,357 +60,324 @@
 
                     <p class="accueilText">Je suis un développeur front-end junior de 29 ans voguant fièrement sur la toile.</p>
                     <p class="accueilText">Après des croisières enrichissantes à naviguer de l'aquaculture, à l'édition en passant par l'administration, j'ai finalement arrimé ma frégate au havre du "Développement Web".</p>
-                    <p class="accueilText">A bord de mon navire, j'aime coder, dessiner, imaginer des interfaces, changer de cap et y intégrer une expérience utilisateur adaptée.</p>
+                    <p class="accueilText">A bord de mon navire, j'aime coder, dessiner, imaginer des interfaces, changer de cap et intégrer une expérience utilisateur adaptée.</p>
                     <p class="accueilText">Je m'intègre rapidement à un nouvel équipage et prend à coeur de réaliser correctement les missions périlleuses que l'on m'attribue. A l'abordage !</p>
                     <a href="CV/CV.pdf" target="_blank">Téléchargez mon CV ici</a>
                 </div>
             </div>
         </div>
         <!-- Expériences et compétences -->
-        <h2 id="titreCompetences" class="container">Mes compétences</h2>
-        <div class="container-fluid blocSkills">
-            <div class="list-group col-xs-12 col-sm-12 col-md-4 col-lg-4 aboutSkills">
-                <a href="#skill1" class="list-group-item text-center catSkills">SKILLS</a>
-                <a href="#skill2" class="list-group-item text-center catSkills">EXPÉRIENCES</a>
-                <a href="#skill3" class="list-group-item text-center catSkills">FORMATION</a>
-                <a href="#skill4" class="list-group-item text-center catSkills">LOISIRS</a>
-            </div>
-            <!-- Skills -->
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 demSkills">
-                <div class="skills" id="skill1">
-                    <h2 class="col-xs-12 col-sm-12 col-md-2 col-lg-2 titleSkills text-right">HTML/CSS</h2>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                            <span class="sr-only">80% Complete (success)</span>
-                        </div>
-                    </div>
-                    <h2 class="col-xs-12 col-sm-12 col-md-2 col-lg-2 titleSkills text-right">Javascript</h2>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
-                            <span class="sr-only">50% Complete</span>
-                        </div>
-                    </div>
-                    <h2 class="col-xs-12 col-sm-12 col-md-2 col-lg-2 titleSkills text-right">Frameworks CSS</h2>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
-                            <span class="sr-only">75% Complete (success)</span>
-                        </div>
-                    </div>
-                    <h2 class="col-xs-12 col-sm-12 col-md-2 col-lg-2 titleSkills text-right">MEAN Stack</h2>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
-                            <span class="sr-only">45% Complete (warning)</span>
-                        </div>
-                    </div>
-                    <h2 class="col-xs-12 col-sm-12 col-md-2 col-lg-2 titleSkills text-right">JQuery</h2>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
-                            <span class="sr-only">50% Complete</span>
-                        </div>
-                    </div>
-                    <h2 class="col-xs-12 col-sm-12 col-md-2 col-lg-2 titleSkills text-right">Wordpress</h2>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width: 35%">
-                            <span class="sr-only">35% Complete (warning)</span>
-                        </div>
-                    </div>
-                    <h2 class="col-xs-12 col-sm-12 col-md-2 col-lg-2 titleSkills text-right">Photoshop</h2>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width: 35%">
-                            <span class="sr-only">35% Complete (warning)</span>
-                        </div>
-                    </div>
+        <section id="ancre1">
+            <h2 id="titreCompetences" class="container text-center">/* Mes compétences */</h2>
+            <div class="container-fluid blocSkills">
+                <div class="list-group col-xs-12 col-sm-12 col-md-4 col-lg-4 aboutSkills">
+                    <a href="#skill1" class="list-group-item text-center catSkills">SKILLS</a>
+                    <a href="#skill2" class="list-group-item text-center catSkills">EXPÉRIENCES</a>
+                    <a href="#skill3" class="list-group-item text-center catSkills">FORMATION</a>
+                    <a href="#skill4" class="list-group-item text-center catSkills">LOISIRS</a>
                 </div>
-                <!-- Expériences -->
-                <div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 skills" id="skill2">
-                    <div class="col-md-3 col-lg-3"><img class="img-responsive itemPro" src="Images/aquaculture.png" width="96">
-                        <h3 class="text-center titrePro">Aquaculture</h3>
-                        <p class="text-center proText">Pisciculture des bobines</p>
-                        <p class="text-center proText">France Haliotis</p>
-                    </div>
-                    <div class="col-md-3 col-lg-3"><img class="img-responsive itemPro" src="Images/edition.png" width="96">
-                        <h3 class="text-center titrePro">Edition</h3>
-                        <p class="text-center proText">Hachette Livre</p>
-                    </div>
-                    <div class="col-md-3 col-lg-3"><img class="img-responsive itemPro" src="Images/qualite.png" width="96">
-                        <h3 class="text-center titrePro">Qualité des PDM</h3>
-                        <p class="text-center proText">Bureau Véritas</p>
-                    </div>
-                    <div class="col-md-3 col-lg-3"><img class="img-responsive itemPro" src="Images/admin.png" width="96">
-                        <h3 class="text-center titrePro">Administration</h3>
-                        <p class="text-center proText">CPAM des Yvelines</p>
-                        <p class="text-center proText">Phénix Evolution</p>
-                    </div>
-                </div>
-                <!-- Formation -->
-                <div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 skills" id="skill3">
-                    <div class="col-md-4 col-lg-4"><img class="img-responsive itemPro" src="Images/web.png" width="96">
-                        <h3 class="text-center titrePro">Développement web</h3>
-                        <p class="text-center proText">Wild Code School</p>
-                    </div>
-                    <div class="col-md-4 col-lg-4"><img class="img-responsive itemPro" src="Images/biologie.png" width="96">
-                        <h3 class="text-center titrePro">Master 2</h3>
-                        <p class="text-center proText">Biologie Marine</p>
-                    </div>
-                    <div class="col-md-4 col-lg-4"><img class="img-responsive itemPro" src="Images/geographie.png" width="96">
-                        <h3 class="text-center titrePro">Licence</h3>
-                        <p class="text-center proText">Géographie</p>
-                    </div>
-                </div>
-                <!-- Loisirs -->
-                <div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 skills" id="skill4">
-                    <div class="col-md-3 col-lg-3"><img class="img-responsive itemPro" src="Images/avion.png" width="96">
-                        <h3 class="text-center titrePro">Voyages</h3>
-                        <p class="text-center proText">Canada, Islande, Europe, Antilles</p>
-                    </div>
-                    <div class="col-md-3 col-lg-3"><img class="img-responsive itemPro" src="Images/ordinateur.png" width="96">
-                        <h3 class="text-center titrePro">E-Sport</h3>-
-                        <p class="text-center proText">LoL, AOE, Smite</p>
-                    </div>
-                    <div class="col-md-3 col-lg-3"><img class="img-responsive itemPro" src="Images/guitare.png" width="96">
-                        <h3 class="text-center titrePro">Guitare classique</h3>
-                        <p class="text-center proText">20 ans</p>
-                    </div>
-                    <div class="col-md-3 col-lg-3"><img class="img-responsive itemPro" src="Images/arts.png" width="96">
-                        <h3 class="text-center titrePro">Arts</h3>
-                        <p class="text-center proText">Lecture, écriture, séries, dessin etc.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--Porte-folio -->
-        <div class="container">
-            <h2 id="titrePorteFolio">Mon Portfolio</h2>
-            <ul id="filters" class="row">
-                <li>
-                    <span class="filter active" data-filter="cat1 cat2 cat3 cat4">Tous les projets</span>
-                </li>
-                <li>
-                    <span class="filter" data-filter="cat1">Sites</span>
-                </li>
-                <li>
-                    <span class="filter" data-filter="cat2">Hackathons</span>
-                </li>
-                <li>
-                    <span class="filter" data-filter="cat3">Fun</span>
-                </li>
-                <li>
-                    <span class="filter" data-filter="cat4">En cours</span>
-                </li>
-            </ul>
-
-            <div id="portfoliolist">
-                <div class="portfolio cat1" data-cat="cat1">
-                    <div class="portfolio-wrapper">
-                        <img src="Images/CDP.png" alt=""/>
-                        <div class="label">
-                            <div class="label-text">
-                                <a href="http://vps367489.ovh.net/#!/" class="text-title">Les Champs du Possible</a>
+                <!-- Skills -->
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 demSkills">
+                    <div class="skills" id="skill1">
+                        <h2 class="col-xs-12 col-sm-12 col-md-2 col-lg-2 titleSkills text-right">HTML/CSS</h2>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                <span class="sr-only">80% Complete (success)</span>
                             </div>
-                            <div class="label-bg"></div>
+                        </div>
+                        <h2 class="col-xs-12 col-sm-12 col-md-2 col-lg-2 titleSkills text-right">Javascript</h2>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                                <span class="sr-only">50% Complete</span>
+                            </div>
+                        </div>
+                        <h2 class="col-xs-12 col-sm-12 col-md-2 col-lg-2 titleSkills text-right">Frameworks CSS</h2>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                                <span class="sr-only">75% Complete (success)</span>
+                            </div>
+                        </div>
+                        <h2 class="col-xs-12 col-sm-12 col-md-2 col-lg-2 titleSkills text-right">MEAN Stack</h2>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                                <span class="sr-only">45% Complete (warning)</span>
+                            </div>
+                        </div>
+                        <h2 class="col-xs-12 col-sm-12 col-md-2 col-lg-2 titleSkills text-right">JQuery</h2>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                                <span class="sr-only">50% Complete</span>
+                            </div>
+                        </div>
+                        <h2 class="col-xs-12 col-sm-12 col-md-2 col-lg-2 titleSkills text-right">Wordpress</h2>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width: 35%">
+                                <span class="sr-only">35% Complete (warning)</span>
+                            </div>
+                        </div>
+                        <h2 class="col-xs-12 col-sm-12 col-md-2 col-lg-2 titleSkills text-right">Photoshop</h2>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width: 35%">
+                                <span class="sr-only">35% Complete (warning)</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="portfolio cat2" data-cat="cat2">
-                    <div class="portfolio-wrapper">
-                        <img src="Images/bcome.png" alt=""/>
-                        <div class="label">
-                            <div class="label-text">
-                                <a href="https://github.com/Jipsian/hackathon-b-come" class="text-title">Air Liquide</a>
-                            </div>
-                            <div class="label-bg"></div>
+                    <!-- Expériences -->
+                    <div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 skills" id="skill2">
+                        <div class="col-md-6 col-lg-6"><img class="img-responsive itemPro" src="Images/aquaculture.png" width="70">
+                            <h3 class="text-center titrePro">Aquaculture</h3>
+                        </div>
+                        <div class="col-md-6 col-lg-6"><img class="img-responsive itemPro" src="Images/edition.png" width="70">
+                            <h3 class="text-center titrePro">Edition</h3>
+                        </div>
+                        <div class="col-md-6 col-lg-6"><img class="img-responsive itemPro" src="Images/admin.png" width="70">
+                            <h3 class="text-center titrePro">Administration</h3>
+                        </div>
+                        <div class="col-md-6 col-lg-6"><img class="img-responsive itemPro" src="Images/qualite.png" width="70">
+                            <h3 class="text-center titrePro">Contrôle qualité</h3>
+                        </div>
+                        <div class="row col-md-12 col-lg-12 text-center lienCV">
+                            <a href="CV/CV.pdf" target="_blank">Mon CV ici</a>
                         </div>
                     </div>
-                </div>
-
-                <div class="portfolio cat2" data-cat="cat2">
-                    <div class="portfolio-wrapper">
-                        <img src="Images/PF.png" alt=""/>
-                        <div class="label">
-                            <div class="label-text">
-                                <a href="https://docs.google.com/presentation/d/179VsKVbRXqUY5vtz2CtxdJ94D4l7xkgcTnK4GolR4RE/edit#slide=id.g19ce17f7a0_0_9" class="text-title">Pierre Fabre Médicaments</a>
-                            </div>
-                            <div class="label-bg"></div>
+                    <!-- Formation -->
+                    <div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 skills" id="skill3">
+                        <div class="col-md-6 col-lg-6"><img class="img-responsive itemPro" src="Images/web.png" width="70">
+                            <h3 class="text-center titrePro">Développement web</h3>
+                        </div>
+                        <div class="col-md-6 col-lg-6"><img class="img-responsive itemPro" src="Images/biologie.png" width="70">
+                            <h3 class="text-center titrePro">Biologie Marine</h3>
+                        </div>
+                        <div class="col-md-6 col-lg-6"><img class="img-responsive itemPro" src="Images/CPGE.png" width="70">
+                            <h3 class="text-center titrePro">CPGE littéraire</h3>
+                        </div>
+                        <div class="col-md-6 col-lg-6"><img class="img-responsive itemPro" src="Images/geographie.png" width="70">
+                            <h3 class="text-center titrePro">Géographie</h3>
+                        </div>
+                        <div class="row col-md-12 col-lg-12 text-center lienCV">
+                            <a href="CV/CV.pdf" target="_blank">Mon CV ici</a>
                         </div>
                     </div>
-                </div>
-
-                <div class="portfolio cat1" data-cat="cat1">
-                    <div class="portfolio-wrapper">
-                        <img src="Images/MAM.png" alt=""/>
-                        <div class="label">
-                            <div class="label-text">
-                                <a href="http://mamauxtresors-remalard.fr/" class="text-title">La MAM aux trésors</a>
-                            </div>
-                            <div class="label-bg"></div>
+                    <!-- Loisirs -->
+                    <div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 skills" id="skill4">
+                        <div class="col-md-6 col-lg-6"><img class="img-responsive itemPro" src="Images/avion.png" width="75">
+                            <h3 class="text-center titreHobby">Voyages</h3>
                         </div>
-                    </div>
-                </div>
-
-                <div class="portfolio cat2" data-cat="cat2">
-                    <div class="portfolio-wrapper">
-                        <img src="Images/movember.png" alt=""/>
-                        <div class="label">
-                            <div class="label-text">
-                                <a href="https://github.com/Jipsian/Hackathon-Movember" class="text-title">Movember</a>
-                            </div>
-                            <div class="label-bg"></div>
+                        <div class="col-md63 col-lg-6"><img class="img-responsive itemPro" src="Images/ordinateur.png" width="75">
+                            <h3 class="text-center titreHobby">E-Sport</h3>-
                         </div>
-                    </div>
-                </div>
-
-                <div class="portfolio cat2" data-cat="cat2">
-                    <div class="portfolio-wrapper">
-                        <img src="Images/biagri.png" alt=""/>
-                        <div class="label">
-                            <div class="label-text">
-                                <a href="https://github.com/Jipsian/Hackathon-Biagri" class="text-title">Comparateuragricole.com</a>
-                            </div>
-                            <div class="label-bg"></div>
+                        <div class="col-md-6 col-lg-6"><img class="img-responsive itemPro" src="Images/arts.png" width="75">
+                            <h3 class="text-center titreHobby">Arts</h3>
                         </div>
-                    </div>
-                </div>
-
-                <div class="portfolio cat3" data-cat="cat3">
-                    <div class="portfolio-wrapper">
-                        <img src="Images/ferme.png" alt=""/>
-                        <div class="label">
-                            <div class="label-text">
-                                <a href="https://github.com/Jipsian/Projet-Perrette-et-ses-vaches" class="text-title">Perette et ses vaches</a>
-                            </div>
-                            <div class="label-bg"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio cat4" data-cat="cat4">
-                    <div class="portfolio-wrapper">
-                        <img src="Images/CV1.png" alt=""/>
-                        <div class="label">
-                            <div class="label-text">
-                                <a href="https://github.com/Jipsian/CV" class="text-title">CV</a>
-                            </div>
-                            <div class="label-bg"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio cat4" data-cat="cat4">
-                    <div class="portfolio-wrapper">
-                        <img src="Images/riot.jpg" alt=""/>
-                        <div class="label">
-                            <div class="label-text">
-                                <a href="" class="text-title">A venir</a>
-                            </div>
-                            <div class="label-bg"></div>
+                        <div class="col-md-6 col-lg-6"><img class="img-responsive itemPro" src="Images/guitare.png" width="75">
+                            <h3 class="text-center titreHobby">Guitare classique</h3>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <section>
 
-        <!--Me contacter -->
-        <div class="container">
-            <form class="well form-horizontal" action=" " method="post" id="contact_form">
-                <fieldset>
+                <!--Porte-folio -->
+                <section >
+                    <div id="ancre2" class="container">
+                        <h2 id="titrePorteFolio" class="text-center">/* Mon Portfolio */</h2>
+                        <ul id="filters" class="row">
+                            <li>
+                                <span class="filter active" data-filter="cat1 cat2 cat3 cat4">Tous les projets</span>
+                            </li>
+                            <li>
+                                <span class="filter" data-filter="cat1">Sites</span>
+                            </li>
+                            <li>
+                                <span class="filter" data-filter="cat2">Hackathons</span>
+                            </li>
+                            <li>
+                                <span class="filter" data-filter="cat3">Fun</span>
+                            </li>
+                            <li>
+                                <span class="filter" data-filter="cat4">En cours</span>
+                            </li>
+                        </ul>
 
-                    <!-- Form Name -->
-                    <legend>Me contacter</legend>
+                        <div id="portfoliolist">
+                            <div class="portfolio cat1" data-cat="cat1">
+                                <div class="portfolio-wrapper">
+                                    <img src="Images/CDP.png" alt=""/>
+                                    <div class="label">
+                                        <div class="label-text">
+                                            <a href="http://vps367489.ovh.net/#!/" target="_blank" class="text-title">Les Champs du Possible</a>
+                                        </div>
+                                        <div class="label-bg"></div>
+                                    </div>
+                                </div>
+                            </div>
 
-                    <!-- Text input-->
+                            <div class="portfolio cat2" data-cat="cat2">
+                                <div class="portfolio-wrapper">
+                                    <img src="Images/bcome.png" alt=""/>
+                                    <div class="label">
+                                        <div class="label-text">
+                                            <a href="https://github.com/Jipsian/hackathon-b-come" target="_blank" class="text-title">Air Liquide</a>
+                                        </div>
+                                        <div class="label-bg"></div>
+                                    </div>
+                                </div>
+                            </div>
 
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Prénom</label>
-                        <div class="col-md-4 inputGroupContainer">
-                            <div class="input-group">
-                                <span class="input-group-addon">
-                                    <i class="glyphicon glyphicon-user"></i>
-                                </span>
-                                <input name="first_name" placeholder="Prénom" class="form-control" type="text">
+                            <div class="portfolio cat2" data-cat="cat2">
+                                <div class="portfolio-wrapper">
+                                    <img src="Images/PF.png" alt=""/>
+                                    <div class="label">
+                                        <div class="label-text">
+                                            <a href="https://docs.google.com/presentation/d/179VsKVbRXqUY5vtz2CtxdJ94D4l7xkgcTnK4GolR4RE/edit#slide=id.g19ce17f7a0_0_9" target="_blank" class="text-title">Pierre Fabre Médicaments</a>
+                                        </div>
+                                        <div class="label-bg"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="portfolio cat1" data-cat="cat1">
+                                <div class="portfolio-wrapper">
+                                    <img src="Images/MAM.png" alt=""/>
+                                    <div class="label">
+                                        <div class="label-text">
+                                            <a href="http://mamauxtresors-remalard.fr/" target="_blank" class="text-title">La MAM aux trésors</a>
+                                        </div>
+                                        <div class="label-bg"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="portfolio cat2" data-cat="cat2">
+                                <div class="portfolio-wrapper">
+                                    <img src="Images/movember.png" alt=""/>
+                                    <div class="label">
+                                        <div class="label-text">
+                                            <a href="https://github.com/Jipsian/Hackathon-Movember" target="_blank" class="text-title">Movember</a>
+                                        </div>
+                                        <div class="label-bg"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="portfolio cat2" data-cat="cat2">
+                                <div class="portfolio-wrapper">
+                                    <img src="Images/biagri.png" alt=""/>
+                                    <div class="label">
+                                        <div class="label-text">
+                                            <a href="https://github.com/Jipsian/Hackathon-Biagri" target="_blank" class="text-title">Comparateuragricole.com</a>
+                                        </div>
+                                        <div class="label-bg"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="portfolio cat3" data-cat="cat3">
+                                <div class="portfolio-wrapper">
+                                    <img src="Images/ferme.png" alt=""/>
+                                    <div class="label">
+                                        <div class="label-text">
+                                            <a href="https://github.com/Jipsian/Projet-Perrette-et-ses-vaches" target="_blank" class="text-title">Perette et ses vaches</a>
+                                        </div>
+                                        <div class="label-bg"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="portfolio cat4" data-cat="cat4">
+                                <div class="portfolio-wrapper">
+                                    <img src="Images/CV1.png" alt=""/>
+                                    <div class="label">
+                                        <div class="label-text">
+                                            <a href="https://github.com/Jipsian/CV" target="_blank" class="text-title">CV</a>
+                                        </div>
+                                        <div class="label-bg"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="portfolio cat4" data-cat="cat4">
+                                <div class="portfolio-wrapper">
+                                    <img src="Images/riot.jpg" alt=""/>
+                                    <div class="label">
+                                        <div class="label-text">
+                                            <a href="" target="_blank" class="text-title">A venir</a>
+                                        </div>
+                                        <div class="label-bg"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                </section>
 
-                    <!-- Text input-->
-
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Nom</label>
-                        <div class="col-md-4 inputGroupContainer">
-                            <div class="input-group">
-                                <span class="input-group-addon">
-                                    <i class="glyphicon glyphicon-user"></i>
-                                </span>
-                                <input name="last_name" placeholder="Nom" class="form-control" type="text">
+                <!--Me contacter -->
+                <section id="ancre3">
+                    <div class="container">
+                        <h2 id="titreContact" class="text-center">/* Me contacter */</h2>
+                    </div>
+                    <div class="container-fluid blocContact">
+                        <div class="col-lg-6 col-lg-offset-3">
+                            <div class="well">
+                                <form role="form" id="contactForm" data-toggle="validator" class="shake">
+                                    <div class="row">
+                                        <div class="form-group col-lg-6">
+                                            <label for="name" class="h4">Nom</label>
+                                            <input type="text" class="form-control" id="name" placeholder="Nom" required>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                        <div class="form-group col-lg-6">
+                                            <label for="email" class="h4">Email</label>
+                                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message" class="h4">Message</label>
+                                        <textarea id="message" class="form-control" rows="5" placeholder="Quel est votre message ?" required></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <button type="submit" id="form-submit" class="btn btn-info btn-lg pull-right ">Envoyer</button>
+                                    <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                    <div class="clearfix"></div>
+                                </form>
                             </div>
                         </div>
                     </div>
-
-                    <!-- Text input-->
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">E-Mail</label>
-                        <div class="col-md-4 inputGroupContainer">
-                            <div class="input-group">
-                                <span class="input-group-addon">
-                                    <i class="glyphicon glyphicon-envelope"></i>
-                                </span>
-                                <input name="email" placeholder="Adresse E-Mail" class="form-control" type="text">
+                </section>
+                <!-- Footer -->
+                <footer>
+                    <div class="container text-center">
+                        <div class="row text-center" id="lienIcones">
+                            <a href="https://fr.icons8.com/web-app/new-icons/all" target="_blank">Vous avez aimé les icônes ? Cliquez ici.</a>
+                        </div>
+                        <div class="row" id="ML">
+                            © 2017 Sylvain Labarre -
+                            <a href="#" data-toggle="modal" data-target="#myModal">Mentions légales</a>
+                            <!-- Modale ML -->
+                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            <h4 class="modal-title" id="myModalLabel">Mentions légales</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>On vera ça au moment d'héberger</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-
-
-
-                    <!-- Text area -->
-
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Votre message</label>
-                        <div class="col-md-4 inputGroupContainer">
-                            <div class="input-group">
-                                <span class="input-group-addon">
-                                    <i class="glyphicon glyphicon-pencil"></i>
-                                </span>
-                                <textarea class="form-control" name="comment" placeholder=""></textarea>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Success message -->
-                    <div class="alert alert-success" role="alert" id="success_message">Success
-                        <i class="glyphicon glyphicon-thumbs-up"></i>
-                        Merci pour votre message. A très bientôt !</div>
-
-                    <!-- Button -->
-                    <div class="form-group">
-                        <label class="col-md-4 control-label"></label>
-                        <div class="col-md-4">
-                            <button type="submit" class="btn btn-warning">Envoyer
-                            </button>
-                        </div>
-                    </div>
-                </fieldset>
-            </form>
-        </div>
-    </div>
-    <footer></footer>
-    <script type='text/javascript' src="script.js"></script>
-    <?php
-    if(!empty($_POST['comment'])) {
-
-    $first_name = $_POST['first_name'] ;
-    $last_name = $_POST['last_name'] ;
-        $email = $_POST['email'] ;
-    $comment = $_POST['comment'] ;
-
-
-    // here we use the php mail function
-    // to send an email to:
-    // you@yourdomain.com
-    mail( "sylvain.labarre@live.fr", $first_name, $last_name, $comment, "From: $email" );
-    echo 'Merci pour votre message !';
-    }
-    ?>
-</body>
-</html>
-<!-- <a href="https://fr.icons8.com/web-app/23021/Ordinateur">Icônes gratuites par Icons8</a> -->
+                </footer>
+                <!-- JS scripts-->
+                <script type='text/javascript' src="JS/script.js"></script>
+                <script type="text/javascript" src="JS/validator.min.js"></script>
+                <script type="text/javascript" src="JS/form-scripts.js"></script>
+            </body>
+        </html>
+        <!--
