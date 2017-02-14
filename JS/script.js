@@ -3,7 +3,7 @@
 $(function() {
     var divs = $(".skills");
     divs.not("#skill1").hide();
-    $("a").click(function() {
+    $(".catSkills").click(function() {
         divs.filter(":visible").hide();
         $($(this).attr("href")).show();
         return false;
@@ -58,9 +58,9 @@ $('#myModal').on('shown.bs.modal', function() {
 
 /* Ancres */
 
-$('a[href^="#"]').click(function(){
+$('.anchor').click(function(){
     var id = $(this).attr("href");
-    var offset = $(id).offset().top
+    var offset = $(id).offset().top;
     $('html, body').animate({scrollTop: offset}, 'slow');
     return false;
 });
