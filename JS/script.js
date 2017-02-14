@@ -58,9 +58,11 @@ $('#myModal').on('shown.bs.modal', function() {
 
 /* Ancres */
 
-$('.anchor').click(function(){
+$('.anchor').click(function() {
     var id = $(this).attr("href");
     var offset = $(id).offset().top;
-    $('html, body').animate({scrollTop: offset}, 'slow');
+    $('html, body').animate({
+        scrollTop: offset
+    }, 'slow');
     return false;
 });
