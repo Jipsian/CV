@@ -2,7 +2,7 @@
 
 // configure
 
-$from = 'Demo contact form <sylvain.labarre@live.fr>';
+$from = 'sylvain@sylvainlabarre.ovh';
 $sendTo = 'sylvain.labarre@live.fr';
 $subject = 'New message from contact form';
 $fields = array('name' => 'Name', 'surname' => 'Surname', 'email' => 'Email', 'message' => 'Message');
@@ -13,7 +13,7 @@ $errorMessage = 'Une erreur est apparue, veuillez réessayer plus tard.';
 
 try
 {
-    $emailText = "You have new message from contact form\n=============================\n";
+    $emailText = "Vous avez reçu un nouveau message\n=\n";
 
     foreach ($_POST as $key => $value) {
 
