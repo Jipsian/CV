@@ -1,11 +1,12 @@
 <?php
 
 // configure
+
 $from = 'Demo contact form <sylvain.labarre@live.fr>';
 $sendTo = 'sylvain.labarre@live.fr';
 $subject = 'New message from contact form';
 $fields = array('name' => 'Name', 'surname' => 'Surname', 'email' => 'Email', 'message' => 'Message');
-$okMessage = 'Merci, je vous recontacterai dès que possible.';
+$okMessage = 'Merci, je vous contacte dès que possible.';
 $errorMessage = 'Une erreur est apparue, veuillez réessayer plus tard.';
 
 // let's do the sending
