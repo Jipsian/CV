@@ -1,6 +1,5 @@
 <?php
 
-// configure
 
 $from = 'sylvain@sylvainlabarre.ovh';
 $sendTo = 'sylvain.labarre@live.fr';
@@ -9,7 +8,6 @@ $fields = array('name' => 'Name', 'surname' => 'Surname', 'email' => 'Email', 'm
 $okMessage = 'Merci, je vous contacte dès que possible.';
 $errorMessage = 'Une erreur est apparue, veuillez réessayer plus tard.';
 
-// let's do the sending
 
 try
 {
