@@ -2,6 +2,12 @@
     font-family: 'Raleway', sans-serif;
 }
 
+@-moz-document url-prefix() {
+    .label {
+        visibility: hidden;
+    }
+}
+
 
 /* Barre de navigation */
 
@@ -92,8 +98,8 @@
     font-size: 25px;
     font-family: 'Delius Unicase', cursive;
     font-weight: 400;
-    padding: 3.5% 0 3.5% 0!important;
     margin: 0 5% 0 0!important;
+    padding: 4.125% 0 4.125% 0!important;
 }
 
 .catSkills:focus {
@@ -103,7 +109,11 @@
     font-size: 25px;
     font-family: 'Delius Unicase', cursive;
     font-weight: 700;
-    padding: 3.5% 0 3.5% 0!important;
+    padding: 4.125% 0 4.125% 0!important;
+}
+
+.catSkills:hover {
+    font-weight: 700;
 }
 
 .blocSkills {
@@ -133,7 +143,6 @@
     margin: auto;
     padding: auto;
 }
-
 
 .lienCV {
     color: #2E4975;
