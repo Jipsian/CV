@@ -12,302 +12,243 @@
 /* Barre de navigation */
 
 .navbar {
-    font-size: 16px;
-    font-weight: bold;
+  background: #ccebff!important;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 #logoNavBar {
-    width: 28px;
+  width: 28px;
 }
 
 #logoNavBar2 {
-    width: 26px;
+  width: 26px;
 }
 
 #logoNavBar3 {
-    width: 27px;
+  width: 27px;
 }
 
 
 /* Banniere accueil */
 
 .aboutMe {
-    margin-bottom: 10%;
-    margin-top: 6%;
+  margin-top: 6%;
 }
 
 #accueilImg {
-    padding: 0;
+  padding: 0;
 }
 
 #accueilBloc {
-    padding: 0;
+  padding: 0;
 }
 
 #accueilNom {
-    color: black;
-    font-size: 35px;
-    font-weight: bold;
-    margin-top: 5%;
-    margin-bottom: 5%;
+  color: black;
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 #accueilJob {
-    color: #2E4975;
-    font-size: 25px;
-    font-family: 'Delius Unicase', cursive;
+  color: #7D9DB2;
+  font-size: 25px;
+  font-family: 'Delius Unicase', cursive;
 }
 
 .accueilText {
-    font-size: 16px;
-    margin: 5% 5% 5% 0%;
+  font-size: 16px;
+  margin: 5% 5% 5% 0%;
+}
+
+.titreAccueil {
+  color: #7D9DB2;
+  font-size: 20px;
+  font-family: 'Delius Unicase', cursive;
+  margin: 0% 5% -1% 0%;
 }
 
 
 /* Compétences et expériences */
 
 #ancre1 {
-    margin-bottom: 9%;
+  margin-bottom: 6%;
 }
 
 #titreCompetences {
-    color: black;
-    font-family: 'Delius Unicase', cursive;
-    font-size: 35px;
-    font-weight: 700;
-    margin-bottom: 3%;
+  color: #FF970D;
+  font-family: 'Delius Unicase', cursive;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 3%;
+  text-decoration: underline;
 }
 
-.aboutSkills {
-    background-color: #2E4975;
-    margin: 0!important;
-    padding: 0!important;
-}
-
-.demSkills {
-    background-color: white;
-    height: 276px;
-    margin: 0 1% 0 -1%!important;
-    padding: 0!important;
-}
-
-.catSkills {
-    background-color: #2E4975!important;
-    border: none!important;
-    color: white!important;
-    font-size: 25px;
-    font-family: 'Delius Unicase', cursive;
-    font-weight: 400;
-    margin: 0 5% 0 0!important;
-    padding: 4.125% 0 4.125% 0!important;
-}
-
-.catSkills:focus {
-    background-color: white!important;
-    border: none!important;
-    color: #2E4975!important;
-    font-size: 25px;
-    font-family: 'Delius Unicase', cursive;
-    font-weight: 700;
-    padding: 4.125% 0 4.125% 0!important;
-}
-
-.catSkills:hover {
-    font-weight: 700;
+.competences {
+  color: #7D9DB2;
+  font-weight: bold;
+  text-align: center;
 }
 
 .blocSkills {
-    background-color: #2E4975!important;
-    border-radius: 4px;
-    margin-bottom: 12%!important;
-    padding-bottom: 1%;
-    padding-top: 1%;
+  margin-bottom: 1.5%!important;
 }
 
-.titleSkills {
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    margin-top: 0.175%;
-}
-
-.progress {
-    margin-top: 1%;
-}
-
-.blocTitleSkills {
-    margin: 0;
-    padding: 0;
-}
-
-.itemPro {
-    margin: auto;
-    padding: auto;
-}
-
-.lienCV {
-    color: #2E4975;
-    font-size: 16px;
-    font-weight: 600;
-    margin: 0;
-    padding: 2% 0 2% 0;
-}
-
-.titrePro {
-    color: #2E4975;
-    font-size: 20px;
-    font-weight: 600;
-    margin: 1% 0 3.5% 0;
-    padding: 1% 0 3.5% 0%;
+.icon {
+  margin: 1%;
 }
 
 
 /*Porte-folio*/
 
 #titrePorteFolio {
-    color: black;
-    font-family: 'Delius Unicase', cursive;
-    font-size: 35px;
-    font-weight: 700;
-    margin-bottom: 4%;
-    margin-top: 10%;
+  color: #FF970D;
+  font-family: 'Delius Unicase', cursive;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 5%;
+  margin-top: 8%;
+  text-decoration: underline;
 }
 
 .container {
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
-    margin: 0 auto;
-    position: relative;
-    width: 960px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  margin: 0 auto;
+  position: relative;
+  width: 960px;
 }
 
 #filters {
-    margin: 2%;
-    padding: 0;
-    list-style: none;
+  margin: 2%;
+  padding: 0;
+  list-style: none;
 }
 
 #filters li {
-    float: left;
+  float: left;
 }
 
 #filters li span {
-    color: #666;
-    cursor: pointer;
-    display: block;
-    padding: 5px 20px;
-    text-decoration: none;
+  color: #666;
+  cursor: pointer;
+  display: block;
+  padding: 5px 20px;
+  text-decoration: none;
 }
 
 #filters li span.active {
-    background: #2E4975;
-    color: #fff;
+  background: #7D9DB2;
+  color: #fff;
 }
 
 #portfoliolist .portfolio {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -o-box-sizing: border-box;
-    display: none;
-    float: left;
-    margin: 1%;
-    overflow: hidden;
-    width: 23%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  display: none;
+  float: left;
+  margin: 1%;
+  overflow: hidden;
+  width: 23%;
 }
 
 .portfolio-wrapper {
-    background: #666;
-    cursor: pointer;
-    overflow: hidden;
-    position: relative !important;
+  background: #666;
+  border: 1px solid #000;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative !important;
 }
 
 .portfolio img {
-    max-width: 100%;
-    position: relative;
+  max-width: 100%;
+  position: relative;
 }
 
 .portfolio .label {
-    bottom: -40px;
-    height: 40px;
-    position: absolute;
-    width: 100%;
+  bottom: -40px;
+  height: 40px;
+  position: absolute;
+  width: 100%;
 }
 
 .portfolio .label-bg {
-    background: #DBDBDB;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
+  background: #DBDBDB;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 .portfolio .label-text {
-    font-size: 20px;
-    padding: 5px 8px 0 0;
-    position: relative;
-    z-index: 500;
+  font-size: 20px;
+  padding: 5px 8px 0 0;
+  position: relative;
+  z-index: 500;
 }
 
 
 /*Me contacter*/
 
 #titreContact {
-    color: black;
-    font-family: 'Delius Unicase', cursive;
-    font-size: 35px;
-    font-weight: 700;
-    margin-bottom: 2%;
-    margin-top: 18%;
+  color: #FF970D;
+  font-family: 'Delius Unicase', cursive;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 3%;
+  margin-top: 18%;
+  text-decoration: underline;
 }
 
 .blocContact {
-    background-color: #2E4975!important;
-    margin: 1% 0 0 0;
+  background-color: #7D9DB2!important;
+  margin: 1% 0 0 0;
 }
 
 .well {
-    background-color: #2E4975!important;
-    border: none!important;
-    margin: 5% 0 5% 0;
-    padding: 0 0 10% 0;
+  background-color: #7D9DB2!important;
+  border: none!important;
+  margin: 5% 0 10% 0;
+  font-size: 14px;
 }
 
 .nomChamps {
-    color: white;
-    font-family: 'Delius Unicase', cursive;
+  color: white;
+  font-family: 'Delius Unicase', cursive;
 }
 
 
 /*Footer*/
 
 footer {
-    background-color: #F8F8F8;
+  background-color: #ccebff!important;
 }
 
 #ML {
-    font-size: 16px;
-    font-weight: bold;
-    margin: 0.5% 0 0.5% 0;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 2% 0;
 }
 
 #ML p {
-    text-align: left;
+  text-align: left;
 }
 
-#lienIcones {
-    font-size: 14px;
-    margin: 0.25% 0 0 0;
+.text-muted {
+  margin-top: 1%;
 }
-
 
 /* Medias */
 
 @media screen and (max-width: 992px) {
     .catSkills:focus {
-        background-color: #2E4975!important;
+        background-color: #7D9DB2!important;
         border: none!important;
         color: white!important;
         font-size: 28px;
