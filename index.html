@@ -7,11 +7,12 @@
         <link rel="shortcut icon" href="Images/CV.png">
         <link rel="stylesheet" href="CSS/style.css">
         <link rel="stylesheet" href="CSS/animate.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Delius+Unicase:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Sahitya:400,700" rel="stylesheet">
         <script type="text/javascript" src="JS/jquery.easing.min.js"></script>
         <script type="text/javascript" src="JS/jquery.mixitup.min.js"></script>
     </head>
@@ -22,21 +23,27 @@
             <div class="container">
                 <!-- Barre de Navigation : logos -->
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="https://github.com/Jipsian/" target="_blank"><img class="pull-left" id="logoNavBar" src="Images/GH.png" alt="Brand"></a>
-                    <a class="navbar-brand" href="https://fr.linkedin.com/in/sylvain-labarre-962502129" target="_blank"><img class="pull-left" id="logoNavBar2" src="Images/LK.png" alt="Brand"></a>
-                    <a class="navbar-brand" href="CV/CV.pdf" target="_blank"><img class="pull-left" id="logoNavBar3" src="Images/CV.png" alt="Brand"></a>
+                  <a class="navbar-brand" href="CV/CV.pdf" target="_blank">
+                    <img class="pull-left" id="logoNavBar3" src="Images/CV.png" alt="Brand">
+                  </a>
+                  <a class="navbar-brand" href="https://fr.linkedin.com/in/sylvain-labarre-962502129" target="_blank">
+                    <img class="pull-left" id="logoNavBar2" src="Images/LK.png" alt="Brand">
+                  </a>
+                  <a class="navbar-brand" href="https://github.com/Jipsian/" target="_blank">
+                    <img class="pull-left" id="logoNavBar" src="Images/GH.png" alt="Brand">
+                  </a>
                 </div>
                 <!-- Barre de Navigation : rubriques -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a class="anchor" href="#ancre0" data-target="#ancre0">Présentation</a>
+                            <a class="anchor" href="#ancre0" data-target="#ancre0" >Présentation</a>
                         </li>
                         <li>
-                            <a class="anchor" href="#ancre1" data-target="#ancre1">Compétences</a>
+                            <a class="anchor" href="#ancre1" data-target="#ancre1">Services</a>
                         </li>
                         <li>
-                            <a class="anchor" href="#ancre2" data-target="#ancre2">Réalisations</a>
+                            <a class="anchor" href="#ancre2" data-target="#ancre2">Portfolio</a>
                         </li>
                         <li>
                             <a class="anchor" href="#ancre3" data-target="#ancre3">Me contacter</a>
@@ -52,7 +59,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center" id="accueilNom">
                     <h1>Sylvain Labarre
                         <span id="accueilJob">
-                            - Intégrateur et Développeur Web
+                            - Développeur Web
                         </span>
                     </h1>
                 </div>
@@ -60,253 +67,263 @@
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-6 col-md-offset-1 col-lg-7 col-lg-offset-1" id="accueilBloc">
                     <p class="titreAccueil">Un projet web à réaliser ?</p>
-                    <p class="accueilText">Vous souhaitez avoir votre propre site internet, le refondre, mettre en place un intranet ou encore créer une application.
-                      <a a class="anchor" href="#ancre1" data-target="#ancre1">Mes compétences</a> peuvent répondre à vos besoins. Voici un échantillon <a class="anchor" href="#ancre2" data-target="#ancre2">de mes réalisations.</a></p>
-                    <p class="titreAccueil">Qui suis-je ? </p>
+                    <p class="accueilText">Vous souhaitez developpez une activité en e-commerce, un site vitrine, un site administrable ou encore développer une application.
+                      <a a class="anchor2" href="#ancre1" data-target="#ancre1">Mes services</a> peuvent répondre à vos besoins. Voici un échantillon de<a class="anchor2" href="#ancre2" data-target="#ancre2"> mes réalisations.</a></p>
+                    <p class="titreAccueil">Qui suis-je ?</p>
                     <p class="accueilText">Un développeur web souriant, volontaire et passionné. Lorsque je ne code pas, je m'adonne à d'autres passions : guitare classique, écriture, lecture, dessin, e-sport, pêche à pied.</p>
-                    <p class="titreAccueil">C'est parti ? </p>
-                    <p class="accueilText">Quel que soit l'avancement de votre projet, je vous accompagnerai jusqu'au bout pour vous permettre de réaliser votre besoin ou votre envie. Vous pouvez me contacter via <a class="anchor" href="#ancre3" data-target="#ancre3">ce formulaire</a>.</p>
+                    <p class="titreAccueil">C'est parti !</p>
+                    <p class="accueilText">Quel que soit l'avancement de votre projet, je vous accompagnerai jusqu'au bout pour vous permettre de réaliser votre besoin ou votre envie. Si vous souhaitez un devis ou tout simplement discuter, contactez moi via <a class="anchor2" href="#ancre3" data-target="#ancre3">ce formulaire</a>.</p>
                 </div>
             </div>
         </div>
         <!-- Expériences et compétences -->
         <div id="ancre1"></div>
+        <div id="skills">
+          <h2 id="titreCompetences" class="container text-center">MES SERVICES</h2>
 
-        <h2 id="titreCompetences" class="container text-center">/* Mes compétences */</h2>
+          <div class="container blocSkills">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
 
-        <div class="container blocSkills">
-          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
-            <h3 class="competences">HTML</h3>
-            <img class="icon" src="Images/HTML5.png" alt=""/>
-          </div>
-          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
-            <h3 class="competences">CSS</h3>
-            <img class="icon" src="Images/css3.png" alt=""/>
-          </div>
-          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
-            <h3 class="competences">Wordpress</h3>
-            <img class="icon" src="Images/wordpress.jpg" alt=""/>
+              <h3 class="competences"><i class="material-icons">build</i> Sites sur-mesure</h3>
+              <ul class="skillList">
+                <li>E-commerce</li>
+                <li>Sites vitrines</li>
+                <li>Applications</li>
+                <li>Intranets</li>
+                <li>Graphisme</li>
+              </ul>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+              <h3 class="competences"><i class="material-icons">language</i> Accompagnement</h3>
+              <ul class="skillList">
+                <li>Référencement</li>
+                <li>Hébergement</li>
+                <li>Maintenance</li>
+                <li>Formation</li>
+              </ul>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+              <h3 class="competences"><i class="material-icons">android</i> Technologies</h3>
+              <ul class="skillList">
+                <li>Wordpress</li>
+                <li>HTML / CSS</li>
+                <li>Sass / Less</li>
+                <li>Bootstrap / Materialize</li>
+                <li>Javascript (ReactJS, NodeJS)</li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center buttonBloc">
+              <button type="button" class="btn btn-info devis"><a class="anchor2" href="#ancre3" data-target="#ancre3">Demander un devis</a></button>
+            </div>
           </div>
         </div>
 
-        <div class="container blocSkills">
-          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
-            <h3 class="competences">Javascript</h3>
-            <img class="icon" src="Images/javascript.png" alt=""/>
-          </div>
-          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
-            <h3 class="competences">React JS & JQuery</h3>
-            <img class="icon" src="Images/react.png" alt=""/>
-          </div>
-          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
-            <h3 class="competences">Hébergement & Référencement & Maintenance</h3>
-            <img class="icon" src="https://png.icons8.com/search-filled/ios7/100" title="Chercher Filled" width="180" height="180">
-          </div>
-        </div>
+        <!--Porte-folio -->
+        <div id="ancre2"></div>
+        <div class="container portfolioBloc">
+          <section>
+            <h2 id="titrePorteFolio" class="text-center">MON PORTFOLIO</h2>
+            <ul id="filters" class="row">
+                <li>
+                    <span class="filter active" data-filter="cat1 cat2 cat3 cat4">Tous les projets</span>
+                </li>
+                <li>
+                    <span class="filter" data-filter="cat1">Wordpress</span>
+                </li>
+                <li>
+                    <span class="filter" data-filter="cat2">HTML & CSS & Javascript</span>
+                </li>
+                <li>
+                    <span class="filter" data-filter="cat3">Hackathons</span>
+                </li>
+            </ul>
 
-        <section id="ancre2">
-            <!--Porte-folio -->
-            <div class="container">
-                <h2 id="titrePorteFolio" class="text-center">/* Mon Portfolio */</h2>
-                <ul id="filters" class="row">
-                    <li>
-                        <span class="filter active" data-filter="cat1 cat2 cat3 cat4">Tous les projets</span>
-                    </li>
-                    <li>
-                        <span class="filter" data-filter="cat1">Wordpress</span>
-                    </li>
-                    <li>
-                        <span class="filter" data-filter="cat2">HTML & CSS & Javascript</span>
-                    </li>
-                    <li>
-                        <span class="filter" data-filter="cat3">Hackathons</span>
-                    </li>
-                </ul>
+            <div id="portfoliolist">
 
-                <div id="portfoliolist">
-
-                  <div class="portfolio cat2" data-cat="cat2">
-                      <div class="portfolio-wrapper">
-                          <a href="http://mamauxtresors-remalard.fr/" target="_blank" class="text-title"><img src="Images/MAM.png" alt=""/></a>
-                          <div class="label">
-                              <div class="label-text">
-                                  <a href="http://mamauxtresors-remalard.fr/" target="_blank" class="text-title">La MAM aux trésors</a>
-                              </div>
-                              <div class="label-bg"></div>
+              <div class="portfolio cat2" data-cat="cat2">
+                  <div class="portfolio-wrapper">
+                      <a href="http://mamauxtresors-remalard.fr/" target="_blank" class="text-title"><img src="Images/MAM.png" alt=""/></a>
+                      <div class="label">
+                          <div class="label-text">
+                              <a href="http://mamauxtresors-remalard.fr/" target="_blank" class="text-title">La MAM aux trésors</a>
                           </div>
+                          <div class="label-bg"></div>
                       </div>
                   </div>
+              </div>
 
-                    <div class="portfolio cat2" data-cat="cat2">
-                        <div class="portfolio-wrapper">
-                            <a href="http://www.campusleschampsdupossible.com/#!/" target="_blank" class="text-title"><img src="Images/CDP.png" alt=""/></a>
-                            <div class="label">
-                                <div class="label-text">
-                                    <a href="http://www.campusleschampsdupossible.com/#!/" target="_blank" class="text-title">Les Champs du Possible</a>
-                                </div>
-                                <div class="label-bg"></div>
+                <div class="portfolio cat2" data-cat="cat2">
+                    <div class="portfolio-wrapper">
+                        <a href="https://camjr.github.io/perrette-et-ses-vaches/" target="_blank" class="text-title"><img src="Images/ferme.png" alt=""/></a>
+                        <div class="label">
+                            <div class="label-text">
+                                <a href="https://camjr.github.io/perrette-et-ses-vaches/" target="_blank" class="text-title">Perette et ses vaches</a>
                             </div>
+                            <div class="label-bg"></div>
                         </div>
                     </div>
-
-                    <div class="portfolio cat2" data-cat="cat2">
-                        <div class="portfolio-wrapper">
-                            <a href="https://camjr.github.io/perrette-et-ses-vaches/" target="_blank" class="text-title"><img src="Images/ferme.png" alt=""/></a>
-                            <div class="label">
-                                <div class="label-text">
-                                    <a href="https://camjr.github.io/perrette-et-ses-vaches/" target="_blank" class="text-title">Perette et ses vaches</a>
-                                </div>
-                                <div class="label-bg"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio cat3" data-cat="cat3">
-                        <div class="portfolio-wrapper">
-                            <a href="https://github.com/Jipsian/hackathon-b-come" target="_blank" class="text-title"><img src="Images/bcome.png" alt=""/></a>
-                            <div class="label">
-                                <div class="label-text">
-                                    <a href="https://github.com/Jipsian/hackathon-b-come" /target="_blank" class="text-title">Air Liquide</a>
-                                </div>
-                                <div class="label-bg"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio cat3" data-cat="cat3">
-                        <div class="portfolio-wrapper">
-                            <a href="http://urotechchallenge.bemyapp.com/" target="_blank" class="text-title"><img src="Images/PF.png" alt=""/></a>
-                            <div class="label">
-                                <div class="label-text">
-                                    <a href="http://urotechchallenge.bemyapp.com/" target="_blank" class="text-title">Pierre Fabre Médicaments</a>
-                                </div>
-                                <div class="label-bg"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio cat3" data-cat="cat3">
-                        <div class="portfolio-wrapper">
-                            <a href="https://github.com/Jipsian/Hackathon-Movember" target="_blank" class="text-title"><img src="Images/movember.png" alt=""/></a>
-                            <div class="label">
-                                <div class="label-text">
-                                    <a href="https://github.com/Jipsian/Hackathon-Movember" target="_blank" class="text-title">Movember</a>
-                                </div>
-                                <div class="label-bg"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio cat3" data-cat="cat3">
-                        <div class="portfolio-wrapper">
-                            <a href="https://github.com/Jipsian/Hackathon-Biagri" target="_blank" class="text-title"><img src="Images/biagri.png" alt=""/></a>
-                            <div class="label">
-                                <div class="label-text">
-                                    <a href="https://github.com/Jipsian/Hackathon-Biagri" target="_blank" class="text-title">Comparateuragricole.com</a>
-                                </div>
-                                <div class="label-bg"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio cat1" data-cat="cat1">
-                        <div class="portfolio-wrapper">
-                            <a href="https://hilaroscope.wordpress.com/" target="_blank" class="text-title"><img src="Images/Hilaroscope.png" alt=""/></a>
-                            <div class="label">
-                                <div class="label-text">
-                                    <a href="https://hilaroscope.wordpress.com/" target="_blank" class="text-title">L'Hilaroscope</a>
-                                </div>
-                                <div class="label-bg"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio cat1" data-cat="cat1">
-                        <div class="portfolio-wrapper">
-                            <a href="https://http://leblancetlenoir.ovh/" target="_blank" class="text-title"><img src="Images/NB.png" alt=""/></a>
-                            <div class="label">
-                                <div class="label-text">
-                                    <a href="https://http://leblancetlenoir.ovh/" target="_blank" class="text-title">Le Blanc et le Noir</a>
-                                </div>
-                                <div class="label-bg"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio cat2" data-cat="cat2">
-                        <div class="portfolio-wrapper">
-                            <a href="https://github.com/Jipsian/CV" target="_blank" class="text-title"><img src="Images/CV1.png" alt=""/></a>
-                            <div class="label">
-                                <div class="label-text">
-                                    <a href="https://github.com/Jipsian/CV" target="_blank" class="text-title">CV</a>
-                                </div>
-                                <div class="label-bg"></div>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
+
+                <div class="portfolio cat2" data-cat="cat2">
+                    <div class="portfolio-wrapper">
+                        <a href="http://www.campusleschampsdupossible.com/#!/" target="_blank" class="text-title"><img src="Images/CDP.png" alt=""/></a>
+                        <div class="label">
+                            <div class="label-text">
+                                <a href="http://www.campusleschampsdupossible.com/#!/" target="_blank" class="text-title">Les Champs du Possible</a>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio cat3" data-cat="cat3">
+                    <div class="portfolio-wrapper">
+                        <a href="https://github.com/Jipsian/hackathon-b-come" target="_blank" class="text-title"><img src="Images/bcome.png" alt=""/></a>
+                        <div class="label">
+                            <div class="label-text">
+                                <a href="https://github.com/Jipsian/hackathon-b-come" /target="_blank" class="text-title">Air Liquide</a>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio cat3" data-cat="cat3">
+                    <div class="portfolio-wrapper">
+                        <a href="http://urotechchallenge.bemyapp.com/" target="_blank" class="text-title"><img src="Images/PF.png" alt=""/></a>
+                        <div class="label">
+                            <div class="label-text">
+                                <a href="http://urotechchallenge.bemyapp.com/" target="_blank" class="text-title">Pierre Fabre Médicaments</a>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio cat3" data-cat="cat3">
+                    <div class="portfolio-wrapper">
+                        <a href="https://github.com/Jipsian/Hackathon-Movember" target="_blank" class="text-title"><img src="Images/movember.png" alt=""/></a>
+                        <div class="label">
+                            <div class="label-text">
+                                <a href="https://github.com/Jipsian/Hackathon-Movember" target="_blank" class="text-title">Movember</a>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio cat3" data-cat="cat3">
+                    <div class="portfolio-wrapper">
+                        <a href="https://github.com/Jipsian/Hackathon-Biagri" target="_blank" class="text-title"><img src="Images/biagri.png" alt=""/></a>
+                        <div class="label">
+                            <div class="label-text">
+                                <a href="https://github.com/Jipsian/Hackathon-Biagri" target="_blank" class="text-title">Comparateuragricole.com</a>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio cat1" data-cat="cat1">
+                    <div class="portfolio-wrapper">
+                        <a href="https://hilaroscope.wordpress.com/" target="_blank" class="text-title"><img src="Images/Hilaroscope.png" alt=""/></a>
+                        <div class="label">
+                            <div class="label-text">
+                                <a href="https://hilaroscope.wordpress.com/" target="_blank" class="text-title">L'Hilaroscope</a>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio cat1" data-cat="cat1">
+                    <div class="portfolio-wrapper">
+                        <a href="http://leblancetlenoir.ovh/" target="_blank" class="text-title"><img src="Images/NB.png" alt=""/></a>
+                        <div class="label">
+                            <div class="label-text">
+                                <a href="https://http://leblancetlenoir.ovh/" target="_blank" class="text-title">Le Blanc et le Noir</a>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio cat2" data-cat="cat2">
+                    <div class="portfolio-wrapper">
+                        <a href="https://github.com/Jipsian/CV" target="_blank" class="text-title"><img src="Images/CV1.png" alt=""/></a>
+                        <div class="label">
+                            <div class="label-text">
+                                <a href="https://github.com/Jipsian/CV" target="_blank" class="text-title">CV</a>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-        </section>
+          </section>
+        </div>
 
         <!--Me contacter -->
-        <div class="container">
-            <h2 id="titreContact" class="text-center">/* Me contacter */</h2>
+        <div id="contact">
+          <div class="container">
+            <h2 id="titreContact" class="text-center">ME CONTACTER</h2>
             <div class="blocContact">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="well">
-                        <form id="contact-form" method="post" action="php/contact.php" role="form">
-                            <div class="messages"></div>
-                            <div class="controls">
-                                <div class="row">
-                                    <div class="col-md-6 col-lg-6">
-                                        <div class="form-group">
-                                            <label for="form_name" class="nomChamps">Prénom *</label>
-                                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Veuillez saisir votre prénom." required="required" data-error="Veuillez renseigner votre prénom.">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-6">
-                                        <div class="form-group">
-                                            <label for="form_lastname" class="nomChamps">Nom *</label>
-                                            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Veuillez saisir votre nom de famille." required="required" data-error="Veuillez renseigner votre nom.">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6 col-lg-6">
-                                        <div class="form-group">
-                                            <label for="form_email" class="nomChamps">Email *</label>
-                                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Veuillez renseigner un Email." required="required" data-error="Votre Email n'est pas valide.">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12 col-lg-12">
-                                        <div class="form-group">
-                                            <label for="form_message" class="nomChamps">Message *</label>
-                                            <textarea id="form_message" name="message" class="form-control" placeholder="Quel message souhaitez-vous laisser ?" rows="5" required="required" data-error="Veuillez saisir un message."></textarea>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12 col-lg-12">
-                                        <input type="submit" class="btn btn-info btn-send" value="Envoyer">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12 col-lg-12">
-                                        <p class="text-muted">
-                                            <strong>*</strong>Ces champs doivent être obligatoirement remplis
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
+              <div class="col-lg-8 col-lg-offset-2">
+                <div class="well">
+                  <form id="contact-form" method="post" action="php/contact.php" role="form">
+                    <div class="messages"></div>
+                    <div class="controls">
+                      <div class="row">
+                        <div class="col-md-6 col-lg-6">
+                          <div class="form-group">
+                            <label for="form_name" class="nomChamps">Prénom *</label>
+                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Veuillez saisir votre prénom." required="required" data-error="Veuillez renseigner votre prénom.">
+                            <div class="help-block with-errors"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                          <div class="form-group">
+                            <label for="form_lastname" class="nomChamps">Nom *</label>
+                            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Veuillez saisir votre nom de famille." required="required" data-error="Veuillez renseigner votre nom.">
+                            <div class="help-block with-errors"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6 col-lg-6">
+                          <div class="form-group">
+                            <label for="form_email" class="nomChamps">Email *</label>
+                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Veuillez renseigner votre adresse email." required="required" data-error="Votre Email n'est pas valide.">
+                            <div class="help-block with-errors"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                          <div class="form-group">
+                            <label for="form_message" class="nomChamps">Message *</label>
+                            <textarea id="form_message" name="message" class="form-control" placeholder="Quel message souhaitez-vous laisser ?" rows="10" required="required" data-error="Veuillez saisir un message."></textarea>
+                            <div class="help-block with-errors"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 col-lg-12">
+                          <input type="submit" class="btn btn-info btn-send" value="Envoyer">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                          <p class="text-muted">
+                            * Ces champs doivent être obligatoirement remplis
+                          </p>
+                        </div>
+                      </div>
                     </div>
+                  </form>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
         <!-- Footer -->
         <footer>
@@ -325,7 +342,7 @@
                                     <h4 class="modal-title" id="myModalLabel">Mentions légales</h4>
                                 </div>
                                 <div class="modal-body">
-                                    <p>Conformément à l’art 6 de la loi du 21 juin 2004, pour la confiance dans l’économie numérique nous vous informons que ce service de communication au public en ligne est mis en place par :<br><br> Editeur :<br> Sylvain Labarre <br>24 rue Charles Gounod<br> 78180
+                                    <p>Conformément à l’article 6 de la loi du 21 juin 2004, pour la confiance dans l’économie numérique nous vous informons que ce service de communication au public en ligne est mis en place par :<br><br> Editeur :<br> Sylvain Labarre <br>24 rue Charles Gounod<br> 78180
                                         Montigny le Bretonneux <br>France <br>Téléphone : 06 72 49 14 46 <br><br>Directeur de la publication : Sylvain Labarre <br><br>Hébergeur :<br> OVH <br>2 rue Kellermann 59100 ROUBAIX France <br>Téléphone : +33 9 72 10 10 07.
                                     </p>
                                 </div>

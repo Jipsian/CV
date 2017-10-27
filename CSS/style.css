@@ -8,13 +8,33 @@
     }
 }
 
+body {
+  background-color: #fffecc!important;
+}
+
 
 /* Barre de navigation */
 
 .navbar {
   background: #ccebff!important;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
+}
+
+.anchor {
+  border: 1px solid white;
+}
+
+.anchor:hover {
+  border: 1px solid white;
+  color: white!important;
+  font-size: 18px;
+}
+
+.anchor:active {
+  border: 1px solid white;
+  color: white!important;
+  font-size: 18px;
 }
 
 #logoNavBar {
@@ -29,13 +49,30 @@
   width: 27px;
 }
 
+#logoNavBar:hover {
+  width: 30px;
+}
+
+#logoNavBar2:hover {
+  width: 28px;
+}
+
+#logoNavBar3:hover {
+  width: 29px;
+}
+
 
 /* Banniere accueil */
 
 .aboutMe {
-  margin-top: 6%;
+  margin-bottom: 4%;
+  margin-top: 8%;
 }
 
+.anchor2:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
 #accueilImg {
   padding: 0;
 }
@@ -48,69 +85,106 @@
   color: black;
   font-size: 35px;
   font-weight: bold;
-  margin-top: 5%;
   margin-bottom: 5%;
+  margin-top: 2.5%;
 }
 
 #accueilJob {
   color: #7D9DB2;
-  font-size: 25px;
-  font-family: 'Delius Unicase', cursive;
+  font-family: 'Sahitya', serif;
+  font-size: 35px;
 }
 
 .accueilText {
-  font-size: 16px;
-  margin: 5% 5% 5% 0%;
+  font-size: 17px;
+  margin: 3% 5% 5% 0%;
 }
 
 .titreAccueil {
   color: #7D9DB2;
-  font-size: 20px;
-  font-family: 'Delius Unicase', cursive;
+  font-family: 'Sahitya', serif;
+  font-size: 30px;
   margin: 0% 5% -1% 0%;
 }
 
 
 /* Compétences et expériences */
 
+#skills {
+  background-color: #ffff99;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
 #ancre1 {
-  margin-bottom: 6%;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+.skillList {
+  font-size: 25px;
+  list-style-type: none;
+  margin-top: 10%;
+  text-align: left;
+}
+
+.skillList>li {
+  font-family: 'Sahitya', serif;
+  margin-top: 1%;
 }
 
 #titreCompetences {
   color: #FF970D;
-  font-family: 'Delius Unicase', cursive;
-  font-size: 35px;
+  font-family: 'Sahitya', serif;
+  font-size: 45px;
   font-weight: 700;
-  margin-bottom: 3%;
-  text-decoration: underline;
+  margin-bottom: 8%;
+
 }
 
 .competences {
   color: #7D9DB2;
-  font-weight: bold;
-  text-align: center;
+  font-size: 30px;
+  text-align: left;
 }
 
 .blocSkills {
-  margin-bottom: 1.5%!important;
+  margin-bottom: 2%!important;
 }
 
-.icon {
-  margin: 1%;
+.material-icons {
+  color: #FF970D;
+  font-size: 50px!important;
+  margin-left: 2%;
 }
 
+.devis {
+  font-size: 30px!important;
+  font-weight: bold;
+}
 
+.buttonBloc {
+  margin: 8% 0 6% 0;
+}
 /*Porte-folio*/
+
+#ancre2 {
+  padding-top: 5%;
+}
+
+.portfolioBloc {
+  display: block;
+  margin-bottom: 5%!important;
+  min-height: 85vh;
+}
 
 #titrePorteFolio {
   color: #FF970D;
-  font-family: 'Delius Unicase', cursive;
-  font-size: 35px;
+  font-family: 'Sahitya', serif;
+  font-size: 45px;
   font-weight: 700;
   margin-bottom: 5%;
-  margin-top: 8%;
-  text-decoration: underline;
+  margin-top: 0;
 }
 
 .container {
@@ -124,9 +198,9 @@
 }
 
 #filters {
+  list-style: none;
   margin: 2%;
   padding: 0;
-  list-style: none;
 }
 
 #filters li {
@@ -196,14 +270,17 @@
 
 /*Me contacter*/
 
+#contact {
+  background-color: #ffff99;
+}
+
 #titreContact {
   color: #FF970D;
-  font-family: 'Delius Unicase', cursive;
-  font-size: 35px;
+  font-family: 'Sahitya', serif;
+  font-size: 45px;
   font-weight: 700;
-  margin-bottom: 3%;
-  margin-top: 18%;
-  text-decoration: underline;
+  margin-bottom: 4%;
+  margin-top: 8%;
 }
 
 .blocContact {
@@ -214,13 +291,15 @@
 .well {
   background-color: #7D9DB2!important;
   border: none!important;
-  margin: 5% 0 10% 0;
-  font-size: 14px;
+  font-size: 15px;
+  margin: 0 -10% 5% -10%!important;
+  padding: 30px!important;
 }
 
 .nomChamps {
   color: white;
-  font-family: 'Delius Unicase', cursive;
+  font-family: 'Sahitya', serif;
+  font-size: 20px;
 }
 
 
@@ -233,7 +312,7 @@ footer {
 #ML {
   font-size: 16px;
   font-weight: bold;
-  margin: 2% 0;
+  margin: 1.5% 0;
 }
 
 #ML p {
@@ -241,6 +320,8 @@ footer {
 }
 
 .text-muted {
+  color: white;
+  font-weight: bold;
   margin-top: 1%;
 }
 
@@ -252,7 +333,7 @@ footer {
         border: none!important;
         color: white!important;
         font-size: 28px;
-        font-family: 'Delius Unicase', cursive;
+        font-family: 'Sahitya', serif;
         font-weight: 700;
         padding: 3.5% 0 3.5% 0!important;
     }
