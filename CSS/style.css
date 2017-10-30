@@ -1,5 +1,5 @@
 * {
-    font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 @-moz-document url-prefix() {
@@ -9,56 +9,33 @@
 }
 
 body {
-  background-color: #fffecc!important;
+  background-color: #FFDB5C!important;
 }
 
 
 /* Barre de navigation */
 
 .navbar {
-  background: #ccebff!important;
-  font-size: 18px;
-  font-weight: bold;
+  background: #4897D8!important;
 }
 
 .anchor {
-  border: 1px solid white;
+  color: white!important;
+  font-family: 'Bitter', serif;
+  font-size: 18px;
 }
 
 .anchor:hover {
-  border: 1px solid white;
-  color: white!important;
-  font-size: 18px;
+  font-weight: bold;
 }
 
 .anchor:active {
-  border: 1px solid white;
-  color: white!important;
-  font-size: 18px;
+  color: red;
+  font-weight: bolder!important;
 }
 
-#logoNavBar {
-  width: 28px;
-}
-
-#logoNavBar2 {
-  width: 26px;
-}
-
-#logoNavBar3 {
-  width: 27px;
-}
-
-#logoNavBar:hover {
+#logoCV {
   width: 30px;
-}
-
-#logoNavBar2:hover {
-  width: 28px;
-}
-
-#logoNavBar3:hover {
-  width: 29px;
 }
 
 
@@ -73,25 +50,20 @@ body {
   font-weight: bold;
   text-decoration: none;
 }
-#accueilImg {
-  padding: 0;
-}
-
-#accueilBloc {
+#accueilImg, #accueilBloc {
   padding: 0;
 }
 
 #accueilNom {
-  color: black;
+  color: #4897D8;
+  font-family: 'Bitter', serif;
   font-size: 35px;
-  font-weight: bold;
   margin-bottom: 5%;
   margin-top: 2.5%;
 }
 
 #accueilJob {
-  color: #7D9DB2;
-  font-family: 'Sahitya', serif;
+  color: #FA6E59;
   font-size: 35px;
 }
 
@@ -101,8 +73,8 @@ body {
 }
 
 .titreAccueil {
-  color: #7D9DB2;
-  font-family: 'Sahitya', serif;
+  color: #FA6E59;
+  font-family: 'Bitter', serif;
   font-size: 30px;
   margin: 0% 5% -1% 0%;
 }
@@ -112,6 +84,7 @@ body {
 
 #skills {
   background-color: #ffff99;
+  min-height: 85vh;
   padding-bottom: 2%;
   padding-top: 2%;
 }
@@ -129,43 +102,68 @@ body {
 }
 
 .skillList>li {
-  font-family: 'Sahitya', serif;
-  margin-top: 1%;
+  font-family: 'Bitter', serif;
+  margin-top: 3.5%;
 }
 
 #titreCompetences {
-  color: #FF970D;
-  font-family: 'Sahitya', serif;
+  border-bottom: 2px dashed #FA6E59;
+  color: #FA6E59;
+  font-family: 'Bitter', serif;
   font-size: 45px;
-  font-weight: 700;
-  margin-bottom: 8%;
+  margin-bottom: 4%;
 
 }
 
 .competences {
-  color: #7D9DB2;
+  color: #ffc800;
+  font-family: 'Bitter', serif;
   font-size: 30px;
-  text-align: left;
+  text-align: center;
 }
 
+.blocSkill {
+  background-color: #ffffcc;
+  border: 2px dashed #FFDB5C;
+  height: 350px!important;
+  margin: 1%;
+  text-align: center;
+  width: 30%!important;
+}
 .blocSkills {
   margin-bottom: 2%!important;
+  text-align: center;
 }
 
 .material-icons {
-  color: #FF970D;
-  font-size: 50px!important;
+  color: #4897D8;
+  font-size: 26px!important;
   margin-left: 2%;
-}
-
-.devis {
-  font-size: 30px!important;
-  font-weight: bold;
 }
 
 .buttonBloc {
   margin: 8% 0 6% 0;
 }
+
+.devis {
+  background-color: #4897D8;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.devis:hover .btn-primary:hover {
+  background-color: #287abd!important;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #4897D8!important;
+}
+
 /*Porte-folio*/
 
 #ancre2 {
@@ -179,10 +177,10 @@ body {
 }
 
 #titrePorteFolio {
-  color: #FF970D;
-  font-family: 'Sahitya', serif;
+  border-bottom: 2px dashed #FA6E59;
+  color: #FA6E59;
+  font-family: 'Bitter', serif;
   font-size: 45px;
-  font-weight: 700;
   margin-bottom: 5%;
   margin-top: 0;
 }
@@ -216,7 +214,7 @@ body {
 }
 
 #filters li span.active {
-  background: #7D9DB2;
+  background: #4897D8;
   color: #fff;
 }
 
@@ -275,38 +273,43 @@ body {
 }
 
 #titreContact {
-  color: #FF970D;
-  font-family: 'Sahitya', serif;
+  border-bottom: 2px dashed #FA6E59;
+  color: #FA6E59;
+  font-family: 'Bitter', serif;
   font-size: 45px;
-  font-weight: 700;
-  margin-bottom: 4%;
-  margin-top: 8%;
+  margin-bottom: 3%;
+  margin-top: 6%;
 }
 
 .blocContact {
-  background-color: #7D9DB2!important;
-  margin: 1% 0 0 0;
+  background-color: #FA6E59!important;
 }
 
 .well {
-  background-color: #7D9DB2!important;
+  background-color: #4897D8!important;
   border: none!important;
   font-size: 15px;
   margin: 0 -10% 5% -10%!important;
-  padding: 30px!important;
+  padding: 20px!important;
 }
 
 .nomChamps {
   color: white;
-  font-family: 'Sahitya', serif;
+  font-family: 'Bitter', serif;
   font-size: 20px;
 }
 
+.send {
+  color: white!important;
+  font-weight: bold!important;
+  font-size: 18px!important;
+  opacity: 1!important;
+}
 
 /*Footer*/
 
 footer {
-  background-color: #ccebff!important;
+  background-color: #FFDB5C!important;
 }
 
 #ML {
@@ -320,7 +323,7 @@ footer {
 }
 
 .text-muted {
-  color: white;
+  color: #FFDB5C!important;
   font-weight: bold;
   margin-top: 1%;
 }
@@ -329,11 +332,11 @@ footer {
 
 @media screen and (max-width: 992px) {
     .catSkills:focus {
-        background-color: #7D9DB2!important;
+        background-color: #FA6E59!important;
         border: none!important;
         color: white!important;
         font-size: 28px;
-        font-family: 'Sahitya', serif;
+        font-family: 'Bitter', serif;
         font-weight: 700;
         padding: 3.5% 0 3.5% 0!important;
     }

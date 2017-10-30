@@ -12,7 +12,8 @@
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Sahitya:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bitter:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script type="text/javascript" src="JS/jquery.easing.min.js"></script>
         <script type="text/javascript" src="JS/jquery.mixitup.min.js"></script>
     </head>
@@ -24,13 +25,13 @@
                 <!-- Barre de Navigation : logos -->
                 <div class="navbar-header">
                   <a class="navbar-brand" href="CV/CV.pdf" target="_blank">
-                    <img class="pull-left" id="logoNavBar3" src="Images/CV.png" alt="Brand">
+                    <img class="pull-left" id="logoCV" src="Images/CV.png" alt="Brand">
                   </a>
                   <a class="navbar-brand" href="https://fr.linkedin.com/in/sylvain-labarre-962502129" target="_blank">
-                    <img class="pull-left" id="logoNavBar2" src="Images/LK.png" alt="Brand">
+                    <i class="pull-left fa fa-linkedin-square" style="font-size:30px;color:white;margin-bottom:2%!important;"></i>
                   </a>
                   <a class="navbar-brand" href="https://github.com/Jipsian/" target="_blank">
-                    <img class="pull-left" id="logoNavBar" src="Images/GH.png" alt="Brand">
+                    <i class="pull-left fa fa-github-square" style="font-size:30px;color:white;margin-bottom:2%!important;"></i>
                   </a>
                 </div>
                 <!-- Barre de Navigation : rubriques -->
@@ -63,12 +64,12 @@
                         </span>
                     </h1>
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" id="accueilImg"><img src="Images/LS.JPG" class="img-responsive img-thumbnail" alt="Responsive image">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" id="accueilImg"><img src="Images/LS.JPG" class="img-responsive" alt="Responsive image">
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-6 col-md-offset-1 col-lg-7 col-lg-offset-1" id="accueilBloc">
                     <p class="titreAccueil">Un projet web à réaliser ?</p>
                     <p class="accueilText">Vous souhaitez developpez une activité en e-commerce, un site vitrine, un site administrable ou encore développer une application.
-                      <a a class="anchor2" href="#ancre1" data-target="#ancre1">Mes services</a> peuvent répondre à vos besoins. Voici un échantillon de<a class="anchor2" href="#ancre2" data-target="#ancre2"> mes réalisations.</a></p>
+                      <a a class="anchor2" href="#ancre1" data-target="#ancre1">Mes services</a> peuvent répondre à vos besoins. Voici un échantillon de<a class="anchor2" href="#ancre2" data-target="#ancre2"> mes réalisations</a>.</p>
                     <p class="titreAccueil">Qui suis-je ?</p>
                     <p class="accueilText">Un développeur web souriant, volontaire et passionné. Lorsque je ne code pas, je m'adonne à d'autres passions : guitare classique, écriture, lecture, dessin, e-sport, pêche à pied.</p>
                     <p class="titreAccueil">C'est parti !</p>
@@ -82,7 +83,7 @@
           <h2 id="titreCompetences" class="container text-center">MES SERVICES</h2>
 
           <div class="container blocSkills">
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 blocSkill">
 
               <h3 class="competences"><i class="material-icons">build</i> Sites sur-mesure</h3>
               <ul class="skillList">
@@ -93,7 +94,7 @@
                 <li>Graphisme</li>
               </ul>
             </div>
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 blocSkill">
               <h3 class="competences"><i class="material-icons">language</i> Accompagnement</h3>
               <ul class="skillList">
                 <li>Référencement</li>
@@ -102,18 +103,18 @@
                 <li>Formation</li>
               </ul>
             </div>
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 blocSkill">
               <h3 class="competences"><i class="material-icons">android</i> Technologies</h3>
               <ul class="skillList">
                 <li>Wordpress</li>
                 <li>HTML / CSS</li>
                 <li>Sass / Less</li>
-                <li>Bootstrap / Materialize</li>
+                <li>Bootstrap</li>
                 <li>Javascript (ReactJS, NodeJS)</li>
               </ul>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center buttonBloc">
-              <button type="button" class="btn btn-info devis"><a class="anchor2" href="#ancre3" data-target="#ancre3">Demander un devis</a></button>
+              <button type="button" class="btn btn-primary"><a class="anchor3 devis" href="#ancre3" data-target="#ancre3">Demander un devis</a></button>
             </div>
           </div>
         </div>
@@ -308,7 +309,7 @@
                           </div>
                         </div>
                         <div class="col-md-12 col-lg-12">
-                          <input type="submit" class="btn btn-info btn-send" value="Envoyer">
+                          <input type="submit" class="btn btn-warning btn-send send" value="Envoyer">
                         </div>
                       </div>
                       <div class="row">
